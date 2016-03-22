@@ -64,9 +64,9 @@
             this.style.webkitTransform = "translate(0,"+this.movePos+"px)";
         }
         function end(){
-                if(this.movePos<-0.1*winH){//向上滑的足够大
+                if(this.movePos<0){//向上滑的足够大
                     var dir=-1
-                }else if(this.movePos>0.1*winH){
+                }else if(this.movePos>0){
                     dir=1
                 }else{
                     dir=0;
